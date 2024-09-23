@@ -1,0 +1,12 @@
+CREATE DATABASE school;
+
+USE school;
+
+CREATE TABLE teachers (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    subject VARCHAR(100),
+    dept VARCHAR(100),
+    years_of_experience INT,
+    salary DECIMAL(10, 2)
+);
